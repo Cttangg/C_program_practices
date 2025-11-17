@@ -1,0 +1,21 @@
+{
+    "files.associations": {
+        "regex": "cpp",
+        "cstring": "c",
+        "string.h": "c",
+        "STRING.H": "cpp"
+    },
+    "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+    "source": "PowerShell",
+    "icon": "terminal-powershell",
+    "args": ["-NoExit", "/c", "chcp 65001", ">null"]
+    },
+    "cmd": {
+        "path": "cmd.exe",
+    "icon": "terminal-cmd",
+    "args": ["/K chcp 65001 >nul"]
+    }
+    },
+    "terminal.integrated.defaultProfile.windows": "cmd"
+}
